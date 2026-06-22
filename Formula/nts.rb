@@ -1,8 +1,8 @@
 class Nts < Formula
   desc "Rich terminal home for NTS Radio"
   homepage "https://github.com/r-ohan/nts-radio-cli"
-  url "https://github.com/r-ohan/nts-radio-cli/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "05b0f62424265dd47e00f6dc77c9bf99cabae1709290c6e9cb2f9058dab12b73"
+  url "https://github.com/r-ohan/nts-radio-cli/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "38674257f1c158969e16620321dc8e0245a6902ad14aac6d82f04dcebd295b87"
   license "MIT"
 
   depends_on "rust" => :build
