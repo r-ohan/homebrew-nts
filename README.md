@@ -10,8 +10,13 @@ Or add the tap first:
 
 ```sh
 brew tap r-ohan/nts
+brew trust r-ohan/nts
 brew install nts
 ```
+
+Recent Homebrew versions require explicit trust before they load formulae from
+a third-party tap by short name. The direct install command above trusts only
+this formula and needs no separate setup.
 
 For a `Brewfile`:
 
