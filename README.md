@@ -1,18 +1,25 @@
-# R-ohan Nts
+# NTS Homebrew Tap
 
-## How do I install these formulae?
+Install the NTS Radio terminal client:
 
-`brew install r-ohan/nts/<formula>`
-
-Or `brew tap r-ohan/nts` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "r-ohan/nts"
-brew "<formula>"
+```sh
+brew install r-ohan/nts/nts
 ```
 
-## Documentation
+Or add the tap first:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```sh
+brew tap r-ohan/nts
+brew install nts
+```
+
+For a `Brewfile`:
+
+```rb
+tap "r-ohan/nts"
+brew "nts"
+```
+
+The formula builds the Rust client from its tagged source release and installs
+`mpv` as a runtime dependency. Source and project documentation live at
+[r-ohan/nts-radio-cli](https://github.com/r-ohan/nts-radio-cli).
